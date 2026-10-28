@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EFAM FC - Élite Football Academy de la Marahoué</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header>
+        <div class="logo-container">
+            <div class="logo-badge"><i class="fas fa-crown"></i> EFAM FC</div>
+            <div class="site-title">ÉLITE FOOTBALL ACADEMY DE LA MARAHOUÉ</div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#academie">L'Académie</a></li>
+                <li><a href="#maillots">Equipements</a></li>
+                <li><a href="#gouvernance">Gouvernance</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero">
+        <div class="hero-content">
+            <div class="slogan-badge">SLOGAN OFFICIEL</div>
+            <h1 class="gold-gradient-text">FORCE – HONNEUR – VICTOIRE</h1>
+            <p class="hero-subtitle">Plus qu'un club, une famille. Ensemble vers la grandeur.</p>
+            <div class="location-tag"><i class="fas fa-map-marker-alt"></i> Siège Social : Bouaflé, Côte d'Ivoire</div>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-gold">Rejoindre l'Académie</a>
+                <a href="#academie" class="btn btn-outline">Découvrir le projet</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Piliers -->
+    <section id="academie" class="section">
+        <h2 class="section-title">NOS 3 PILIERS FONDATEURS</h2>
+        <div class="grid-3">
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-crown"></i></div>
+                <h3>FORMATION</h3>
+                <p>Encadrement sportif et éducatif de haut niveau pour faire émerger les talents de demain.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-football-ball"></i></div>
+                <h3>COMPÉTITION</h3>
+                <p>Rigueur, discipline et esprit d'équipe sur les terrains régionaux et nationaux.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon"><div class="chart-icon"></div></div>
+                <h3>RÉUSSITE</h3>
+                <p>Accompagnement humain et professionnel des jeunes talents de la Marahoué.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Maillots -->
+    <section id="maillots" class="section bg-darker">
+        <h2 class="section-title">ÉQUIPEMENTS OFFICIELS EFAM FC</h2>
+        <div class="grid-2">
+            <div class="kit-card domicile">
+                <div class="kit-badge">DOMICILE</div>
+                <h3>MAILLOT DOMICILE</h3>
+                <div class="kit-colors">Couleurs : <span>Rouge / Or</span></div>
+                <p>Représente la puissance, le feu et la détermination sur nos terres.</p>
+            </div>
+            <div class="kit-card exterieur">
+                <div class="kit-badge">EXTÉRIEUR</div>
+                <h3>MAILLOT EXTÉRIEUR</h3>
+                <div class="kit-colors">Couleurs : <span>Blanc / Or</span></div>
+                <p>Symbolise l'élégance, le respect et la clarté du jeu à l'extérieur.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Gouvernance & Mobilisation -->
+    <section id="gouvernance" class="section">
+        <h2 class="section-title">ORGANISATION & GOUVERNANCE</h2>
+        <div class="grid-3">
+            <div class="card">
+                <h3>Présidence</h3>
+                <p class="role-name">M. AKAFOU</p>
+                <p class="role-title">Président du Centre</p>
+            </div>
+            <div class="card">
+                <h3>Encadrement Technique</h3>
+                <p class="role-name">Coach TONAN</p>
+                <p class="role-title">Coordinateur Sportif</p>
+            </div>
+            <div class="card">
+                <h3>Secrétariat</h3>
+                <p class="role-name">ATCHOWO Yannick</p>
+                <p class="role-title">Secrétaire de Séance</p>
+            </div>
+        </div>
+
+        <div class="info-box">
+            <h3><i class="fas fa-file-signature"></i> Structuration Administrative en cours</h3>
+            <p>Démarches d'enregistrement officiel auprès de la Préfecture de Bouaflé et du Ministère en charge des Sports.</p>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="section bg-darker">
+        <h2 class="section-title">REJOINDRE L'EFAM FC</h2>
+        <div class="contact-container">
+            <form id="contactForm">
+                <div class="form-group">
+                    <label>Nom complet</label>
+                    <input type="text" required placeholder="Ex: Kouadio Jean">
+                </div>
+                <div class="form-group">
+                    <label>Téléphone / WhatsApp</label>
+                    <input type="tel" required placeholder="Ex: +225 07 00 00 00 00">
+                </div>
+                <div class="form-group">
+                    <label>Profil</label>
+                    <select required>
+                        <option value="">Sélectionner votre profil</option>
+                        <option value="joueur">Jeune Joueur / Parent</option>
+                        <option value="membre">Membre / Cotisant</option>
+                        <option value="partenaire">Partenaire / Sponsor</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Message</label>
+                    <textarea rows="4" placeholder="Votre message pour le bureau de l'EFAM FC..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-gold btn-full">Envoyer le message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">EFAM FC - Bouaflé</div>
+            <p>© 2026 Élite Football Academy de la Marahoué. Tous droits réservés.</p>
+            <p class="dev-signature">Développé par Dev.Assamoi</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
